@@ -647,14 +647,14 @@ a:hover {
   height: 61px;
 }
 #scrollToTop a {
-  background: #188ef4;
+  background: #ffffff;
 }
 #scrollToTop a i:before {
   content: '';
   position: absolute;
   height: 40%;
   top: 25%;
-  background: #ffffff;
+  background: #000000;
   width: 3%;
   left: calc(50% - 1px);
 }
@@ -662,8 +662,8 @@ a:hover {
   content: '';
   position: absolute;
   display: block;
-  border-top: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
   width: 40%;
   height: 40%;
   left: 30%;
@@ -689,7 +689,7 @@ a:hover {
   display: block;
 }
 .mbr-arrow a i {
-  color: #188ef4;
+  color: #ffffff;
   top: auto !important;
   left: auto !important;
 }
