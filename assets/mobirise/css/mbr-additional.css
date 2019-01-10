@@ -863,7 +863,7 @@ body {
 }
 .cid-repa7rjItl {
   background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
-  background-color: #52e5e5;
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
 }
 .cid-repa7rjItl .mbri-down {
   color: white;
@@ -884,14 +884,14 @@ body {
   margin-left: 4px !important;
 }
 .cid-repa7rjItl .animated-element {
-  color: #ff695c;
+  color: #5eeebb;
 }
 .cid-repa7rjItl .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
-  color: #ff695c;
+  color: #5eeebb;
 }
 .cid-repa7rjItl .mbr-figure {
   border-radius: .25rem;
@@ -944,12 +944,25 @@ body {
   }
 }
 .cid-repa7rjItl P {
-  color: #ffffff;
+  color: #f4f8fa;
   text-align: center;
 }
 .cid-repa7rjItl .mbr-section-text,
 .cid-repa7rjItl .mbr-section-btn {
   text-align: left;
+  color: #f4f8fa;
+}
+.cid-repa7rjItl .mbr-section-subtitle,
+.cid-repa7rjItl .typed-text {
+  color: #ffffff;
+}
+.cid-repa7rjItl .mbr-section-subtitle,
+.cid-repa7rjItl .typed-text B {
+  color: #f4f8fa;
+}
+.cid-repa7rjItl .mbr-section-text,
+.cid-repa7rjItl .mbr-section-btn B {
+  color: #000000;
 }
 .cid-reC3z37OyB {
   padding-top: 15px;
@@ -972,7 +985,7 @@ body {
   height: 0;
   border-style: solid;
   border-width: 10px 0 10px 15px;
-  border-color: transparent transparent transparent #ffffff;
+  border-color: transparent transparent transparent #000000;
   margin-right: -3px;
 }
 .cid-reC3z37OyB .btn-play {
@@ -980,10 +993,10 @@ body {
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
   position: relative;
-  background: #ff695c;
+  background: #5eeebb;
   width: 60px;
   height: 60px;
-  border: 1px solid #ff695c;
+  border: 1px solid #5eeebb;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   text-align: center;
@@ -1357,6 +1370,10 @@ body {
   background: #f4f8fa !important;
   min-height: 60px;
 }
+.cid-repci1VYkJ .navbar.navbar-short .text-white {
+  font-size: 16px !important;
+  color: black !important;
+}
 .cid-repci1VYkJ .navbar.navbar-short .navbar-logo img {
   height: 3rem !important;
 }
@@ -1563,7 +1580,7 @@ body {
 }
 .cid-reBTOrCe7J .content-panel {
   padding: 2rem;
-  background: linear-gradient(45deg, #51aafa, #1dc9cb);
+  background: linear-gradient(45deg, #1dc9cb, #2bdc9d);
   height: 100%;
   border-top-right-radius: .25rem;
   border-bottom-right-radius: .25rem;
@@ -1630,10 +1647,9 @@ body {
   opacity: 1;
 }
 .cid-reDuIXwgo2 {
-  background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #f4f8fa;
 }
 .cid-reDuIXwgo2 .mbr-text {
   color: #444;
