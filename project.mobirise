@@ -37,11 +37,11 @@
     "versionFirst": "4.8.10",
     "siteFonts": [],
     "favicon": "@PROJECT_PATH@/assets/images/wechatimg128-128x136.png",
-    "noImageResize": "",
+    "noImageResize": "true",
     "google-analytics": "",
     "cookiesAlert": "",
     "gdpr": "",
-    "siteUrl": "",
+    "siteUrl": "undefined",
     "uniqCompNum": 21,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
@@ -59,7 +59,7 @@
         "title": "OFF/White Digital Media",
         "meta_descr": "",
         "header_custom": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css\">\n\n\n<!-- <link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\"> -->\n\n\n",
-        "footer_custom": " <!-- <script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>\n<script>\n  AOS.init();\n</script>\n<script>\n$('.mbr-form').submit(function(e) {\n\n  var $this = $(this);\n\n  $.ajax({\n      type: \"GET\", // GET & url for json slightly different\n      url: \"http://conceptanimated.us7.list-manage2.com/subscribe/post-json?c=?\",\n      data: $this.serialize(),\n      dataType    : 'json',\n      contentType: \"application/json; charset=utf-8\",\n      error       : function(err) { alert(\"Could not connect to the registration server.\"); },\n      success     : function(data) {\n          if (data.result != \"success\") {\n              // Something went wrong, parse data.msg string and display message\n\n              console.log(JSON.stringify(data.msg));\n          } else {\n              // It worked, so hide form and display thank-you message.\n              console.log(\"nice\");\n$( '#emailThankYou' ).removeAttr('hidden');\n\n          }\n      }\n  });\n  return false;\n});\n</script>\n\n-->\n",
+        "footer_custom": "<script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>\n<script>\n  AOS.init();\n</script>\n\n <!-- <script>\n$('.mbr-form').submit(function(e) {\n\n  var $this = $(this);\n\n  $.ajax({\n      type: \"GET\", // GET & url for json slightly different\n      url: \"http://conceptanimated.us7.list-manage2.com/subscribe/post-json?c=?\",\n      data: $this.serialize(),\n      dataType    : 'json',\n      contentType: \"application/json; charset=utf-8\",\n      error       : function(err) { alert(\"Could not connect to the registration server.\"); },\n      success     : function(data) {\n          if (data.result != \"success\") {\n              // Something went wrong, parse data.msg string and display message\n\n              console.log(JSON.stringify(data.msg));\n          } else {\n              // It worked, so hide form and display thank-you message.\n              console.log(\"nice\");\n$( '#emailThankYou' ).removeAttr('hidden');\n\n          }\n      }\n  });\n  return false;\n});\n</script>\n\n-->\n",
         "html_before": ""
       },
       "components": [
