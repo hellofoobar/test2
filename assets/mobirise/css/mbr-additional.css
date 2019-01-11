@@ -866,6 +866,7 @@ body {
   background-image: url("../../../assets/images/mbr-1920x1280.jpg");
 }
 .cid-repa7rjItl .mbri-down {
+  font-size: 16px !important;
   color: white;
 }
 .cid-repa7rjItl .mbr-section-title,
@@ -1181,6 +1182,9 @@ body {
     max-width: 20%;
     padding: 15px;
   }
+}
+.cid-repci1VYkJ .opened .text-white {
+  color: black !important;
 }
 .cid-repci1VYkJ .navbar-caption {
   color: green;

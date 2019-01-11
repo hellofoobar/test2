@@ -66,6 +66,7 @@
         {
           "_styles": {
             ".mbri-down": {
+              "font-size": "16px !important",
               "color": "white"
             },
             "background": "linear-gradient(to right, #ffffff, #6dd5fa, #2980b9)",
@@ -479,6 +480,11 @@
         },
         {
           "_styles": {
+            ".opened": {
+              ".text-white": {
+                "color": "black !important"
+              }
+            },
             ".navbar-caption": {
               "color": "green"
             },
